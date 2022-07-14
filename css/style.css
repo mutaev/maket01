@@ -117,9 +117,7 @@ img{
     padding: 117px 0 35px;
 }
 
-.header__btn {
 
-}
 
 .button {
     background: #DB2512;
@@ -127,20 +125,21 @@ img{
     font-weight: 500;
     font-size: inherit;
     line-height: 150%;
-    color: inherit;
+    color: #fff;
     width: 198px;
     height: 50px;
+    cursor: pointer;
 
 }
 
 
 /* services */
 .services {
-    /* position: relative; */
+    position: relative;
 }
 .address {
     position: absolute;
-    bottom: 232px;
+    top: -98px;
     
 
 }
