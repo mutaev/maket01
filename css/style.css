@@ -1,0 +1,171 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B7B7B7;
+    margin: 0;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1201px;
+    margin: 0 auto;
+}
+
+.title-h2{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+/* header */
+
+.header {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    background-position: center;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header__logo {
+    height: 64px;
+}
+
+.logo__link {
+
+}
+
+.logo__img {
+}
+
+.menu {
+    
+}
+.menu__list {
+    
+
+}
+.menu__list-item {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    margin-right: 35px;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+}
+.menu__link--active {
+    border-bottom: 2px solid #fff;
+
+}
+.header__lang {
+    padding-left: 65px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 791px;
+    padding: 117px 0 35px;
+}
+
+.header__btn {
+
+}
+
+.button {
+    background: #DB2512;
+    border: none;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 150%;
+    color: inherit;
+    width: 198px;
+    height: 50px;
+
+}
+
+
+/* services */
+.services {
+    /* position: relative; */
+}
+.address {
+    position: absolute;
+    bottom: 232px;
+    
+
+}
+.address__items {
+    display: flex;
+    gap: 0 21px;
+}
+.adress__item {
+    width: 386px;
+    height: 196px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 39px 39px 37px;
+    background-color: #fff;
+}
+.adress__item-ic {
+    margin-bottom: 13px;
+}
+.adress__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.adress__item-text {
+    padding-top: 15px;
+}
