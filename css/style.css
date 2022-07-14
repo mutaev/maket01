@@ -43,6 +43,18 @@ img{
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #000000;
+}
+
+.title-h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text-p{
 
 }
 /* header */
@@ -136,17 +148,19 @@ img{
 /* services */
 .services {
     position: relative;
+    margin-bottom: 100px;
 }
+
 .address {
     position: absolute;
     top: -98px;
-    
-
 }
+
 .address__items {
     display: flex;
     gap: 0 21px;
 }
+
 .adress__item {
     width: 386px;
     height: 196px;
@@ -154,17 +168,233 @@ img{
     padding: 39px 39px 37px;
     background-color: #fff;
 }
+
 .adress__item-ic {
     margin-bottom: 13px;
 }
-.adress__item-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #000000;
-}
+
 .adress__item-text {
     padding-top: 15px;
 }
+
+.services__content {
+    padding-top: 205px;
+}
+
+.services__title{
+    margin-bottom: 22px;
+}
+
+.services__link {
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.services__items {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.services__item {
+    position: relative;
+    width: 100%;
+}
+
+.services__item-img {
+    transition: all 0.3s;
+}
+
+.services__item-img:hover {
+    filter: brightness(40%);
+}
+
+.services__item-title {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 15px
+}
+
+.services__item-btn {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    left: 143px;
+    bottom: 250px;
+    border: none;
+    font-size: 45px;
+    color: #fff;
+    background: #DB2512;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .3s;
+}
+.services__item:hover .services__item-btn {
+    opacity: 1;
+}
+
+.services__item:hover .services__item-text {
+    opacity: 1;
+}
+
+.services__item-text {
+    font-weight: 600;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    width: 269px;
+    position: absolute;
+    left: 29px;
+    bottom: 80px;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity .3s;
+}
+
+/* understand */
+
+.understand {
+    background-color: #171616;
+    max-height: 665px;
+    padding: 117px 0;
+}
+
+.understand__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.understand__box {
+    width: 506px;
+}
+
+.understand__title{
+    color: #fff;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-bottom: 42px;
+}
+
+.understand__text {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.23em;
+    line-height: 23px;
+    margin-bottom: 48px;
+}
+
+.understand__link {
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #FFF;
+}
+
+/* fast */
+
+.fast {
+    padding-top: 198px;
+}
+
+.fast__title {
+    font-weight: 900;
+    font-size: 148px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.fast__text {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 108px;
+}
+
+.fast__items {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 99px;
+}
+
+.fast__item {
+    width: 386px;
+    height: 150px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 30px 24px 30px 26px;
+}
+
+.fast__item-text{
+    max-width: 332px;
+}
+
+.title-h3 {
+    margin-bottom: 15px;
+}
+
+/*  contactn */
+
+.contact {
+    background: #171616;
+    min-height: 665px;
+
+}
+
+.contact__form {
+    width: 500px;
+    padding: 97px 0;
+}
+
+.contact__title{
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.contact__form-input {
+    width: 197px;
+    height: 33px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.contact__form-input,.contact__form-textarea::placeholder {
+    font-size: 15px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.button {
+
+}
+
+.contact__form-textarea {
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    width: 440px;
+    height: 131px;
+}
+
+.contact__form-textarea::placeholder{
+
+} 
+
+
+
