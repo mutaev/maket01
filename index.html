@@ -36,8 +36,8 @@
           </ul>
         </nav>
         <span class="header__lang">
-          <span>RU</span>
-          <span>EN</span>
+          <span class="header__lang-item">RU</span>
+          <span class="header__lang-item">EN</span>
         </span>
       </div>
       <h1 class="header__title">
@@ -136,14 +136,34 @@
     <div class="container">
       <form class="contact__form">
         <h2 class="title-h2 contact__title">Contact us</h2>
-        <input class="contact__form-input" type="text" placeholder="Name">
-        <input class="contact__form-input" type="text" placeholder="Last Name">
-        <input class="contact__form-input" type="email" placeholder="Email">
-        <input class="contact__form-input" type="tel" placeholder="Phone">
-        <textarea class="contact__form-textarea" placeholder="Message">Message</textarea>
+        <div class="contact__form-items">
+          <input id="Name" class="contact__form-input" type="text">
+          <label for="Name" class="contact__form-label">Name</label>
+          <input id="LastName" class="contact__form-input" type="text">
+          <label for="LastName" class="contact__form-label contact__form-label--2">Last Name</label>
+          <input id="email" class="contact__form-input" type="email">
+          <label for="email" class="contact__form-label contact__form-label--3">email</label>
+          <input id="phone" class="contact__form-input" type="tel">
+          <label for="phone" class="contact__form-label contact__form-label--4">Phone</label>
+          <input id="Message" class="contact__form-input contact__form-input--big-text" type="text">
+          <label for="Message" for="phone" class="contact__form-label contact__form-label--5">Message</label>
+        </div>
         <button class="button" type="submit">SEND</button>
       </form>
     </div>
   </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__copy">© 2021 Auto theme by Frontend Tricks</div>
+        <div class="footer__social-link">
+          <a class="footer__link" href="#"><img src="img/soc-1.svg" alt="social icon"></a>
+          <a class="footer__link" href="#"><img src="img/soc-2.svg" alt="social icon"></a>
+          <a class="footer__link" href="#"><img src="img/soc-3.svg" alt="social icon"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
